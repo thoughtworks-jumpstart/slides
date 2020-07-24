@@ -3,7 +3,9 @@ paginate: true
 theme: uncover
 ---
 
-# Welcome to Jumpstart
+# Jumpstart
+
+Welcome to Jumpstart
 
 ---
 
