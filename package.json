@@ -4,10 +4,12 @@
   "description": "Jumpstart slides",
   "main": "index.js",
   "scripts": {
+    "start": "npm run build && npm run serve",
+    "serve": "python -m SimpleHTTPServer",
     "build": "npm run build:index && npm run build:deck",
     "build:index": "showdown makehtml --input index.md --output index.html",
-    "build:deck": "npm run remove-folder && npm run copy-md-files && marp deck/ && npm run remove-md-files",
-    "remove-folder": "rm -r topics",
+    "build:deck": "npm run remove-dist-folder && npm run copy-md-files && marp topics/ && npm run remove-md-files",
+    "remove-dist-folder": "rm -rf topics",
     "copy-md-files": "cp -r src/ topics/",
     "remove-md-files": "rm -r topics/**/*.md"
   },
