@@ -11,6 +11,8 @@ footer: "Developed at ThoughtWorks"
 
 This template uses the `uncover` theme.
 
+<!-- Add your presenter notes here -->
+
 ---
 
 # Getting started
