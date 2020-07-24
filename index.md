@@ -1,3 +1,5 @@
-# Hello, world!
+# Jumpstart Slide Deck
 
-[Uncover Template](deck/templates/uncover.html)
+## Templates
+
+- [Uncover template](deck/templates/uncover.html)
