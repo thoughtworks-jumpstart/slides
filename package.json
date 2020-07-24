@@ -1,0 +1,29 @@
+{
+  "name": "slides",
+  "version": "1.0.0",
+  "description": "Jumpstart slides",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build:index && npm run build:deck",
+    "build:index": "showdown makehtml --input index.md --output index.html",
+    "build:deck": "npm run remove-folder && npm run copy-md-files && marp deck/ && npm run remove-md-files",
+    "remove-folder": "rm -r topics",
+    "copy-md-files": "cp -r src/ topics/",
+    "remove-md-files": "rm -r topics/**/*.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thoughtworks-jumpstart/slides.git"
+  },
+  "keywords": [],
+  "author": "Jesstern Rays",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thoughtworks-jumpstart/slides/issues"
+  },
+  "homepage": "https://github.com/thoughtworks-jumpstart/slides#readme",
+  "dependencies": {
+    "@marp-team/marp-cli": "^0.19.0",
+    "showdown": "^1.9.1"
+  }
+}
