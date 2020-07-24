@@ -4,4 +4,5 @@
 
 ## Templates
 
+- [Gaia template](topics/templates/gaia.html)
 - [Uncover template](topics/templates/uncover.html)
