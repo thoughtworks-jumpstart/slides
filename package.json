@@ -27,10 +27,5 @@
   },
   "devDependencies": {
     "husky": "^4.2.5"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run build"
-    }
   }
 }
