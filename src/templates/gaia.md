@@ -1,11 +1,11 @@
 ---
 paginate: true
-theme: uncover
+theme: gaia
 ---
 
-# Uncover theme
+# Gaia theme
 
-This template uses the `uncover` theme.
+This template uses the `gaia` theme.
 
 ---
 
