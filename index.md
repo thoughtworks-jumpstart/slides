@@ -1,3 +1,3 @@
 ## Templates
 
-- [Uncover template](deck/templates/uncover.html)
+- [Uncover template](topics/templates/uncover.html)
