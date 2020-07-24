@@ -42,3 +42,15 @@ const sayHello = (name) => {
   return `Hello, ${name}!`;
 };
 ```
+
+---
+
+<!-- backgroundColor: salmon -->
+
+# Change your slide's background color
+
+Woohoo! You can change the color of a particular slide
+
+---
+
+# The end
