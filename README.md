@@ -1,4 +1,14 @@
-# slides
+## Content
+
+### Introduction
+
+- [Welcome to Jumpstart](topics/introduction/welcome.html)
+
+### Templates
+
+- [Default template](topics/templates/default.html)
+- [Gaia template](topics/templates/gaia.html)
+- [Uncover template](topics/templates/uncover.html)
 
 ## Getting started
 
@@ -14,12 +24,12 @@ Within the `src` folder, select or create a new folder for a topic (e.g. `git`, 
 
 ## Build your slide deck in watch mode
 
-It is recommended that you run `npm run build:watch` so you can build your slide deck in watch mode to ensure that your slides are always built before you commit them.
+It is recommended that you run `npm run start` so you can build your slide deck in watch mode to ensure that your slides are always built before you commit them.
 
-## Update the index page
+## Update README
 
-Create a link to your deck in `index.md` so that it's easily accessible from the main page. Be sure to follow the format `topics/{your-topic}/{your-title}.html` (e.g. `[React]("topics/react/react.html")`).
+This README serves as the entry point. Update the content with a link to your deck. Be sure to follow the format `topics/{your-topic}/{your-title}.html` (e.g. `[React]("topics/react/react.html")`).
 
-## Preview your deck
+## Preview your slides
 
-To view your deck locally, run `npm run start` - this will run the build and serve your slides on localhost:5000 then navigate to your slide deck.
+Install the Marp extension for VS Code then view your slide as a regular Markdown preview.

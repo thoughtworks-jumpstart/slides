@@ -4,13 +4,9 @@
   "description": "Jumpstart slides",
   "main": "index.js",
   "scripts": {
-    "start": "npm run build && npm run serve",
-    "serve": "python -m SimpleHTTPServer 5000",
-    "build": "npm run remove-dist-folder && npm run copy-md-files && marp topics/ && npm run remove-md-files",
-    "build:watch": "watch 'npm run build' src/",
-    "remove-dist-folder": "rm -rf topics",
-    "copy-md-files": "cp -r src/ topics/",
-    "remove-md-files": "rm -r topics/**/*.md"
+    "start": "npm run build:watch",
+    "build": "marp --input-dir src --output topics",
+    "build:watch": "watch 'npm run build' src/"
   },
   "repository": {
     "type": "git",
@@ -27,7 +23,5 @@
     "@marp-team/marp-cli": "^0.19.0",
     "watch": "^1.0.2"
   },
-  "devDependencies": {
-    "husky": "^4.2.5"
-  }
+  "devDependencies": {}
 }
